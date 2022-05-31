@@ -1,5 +1,5 @@
 # Overview 
-This project contains the software used to generate the figures in Section 3 and Section 4 of the manuscript "_Bitslice Masking and Improved Shuffling: How and When to Mix Them in Software?_" submitted to Crypto 2021. 
+This project contains the software used to generate the figures in Section 3 and Section 4 of the manuscript "_Bitslice Masking and Improved Shuffling: How and When to Mix Them in Software?_" presented at TCHES2022. 
 
 ## Masking and Shuffling strategies
 Next we describe how the figures from Section 4 are obtained. For each investigated algorithm, it computes the mutual information between the secret $`\bm{A}`$ and the leakage $`\bm{Y}`$ for a masking only implementation $`\mathsf{MI}_m`$ and the masked and shuffled implementation $`\mathsf{MI}_{m+s}`$. This is done by first generating leakage for an implementation and then computing the true PDF ($`\mathsf{f}(\bm{l};a)`$). To do so, we use two different methods.
